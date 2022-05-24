@@ -1,0 +1,22 @@
+@value colors: "../../styles/colors.css";
+@value pure-black, light-gray, pure-white, main-accent from colors;
+
+.footer {
+  background-color: pure-black;
+  color: pure-white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftNavWrap, .rightNavWrap, .navigation, .socialWrap {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation, .socialWrap, .rightNavWrap {
+  flex-direction: column;
+}
+
+.socialWrap, .rightNavWrap {
+  justify-content: space-between;
+}

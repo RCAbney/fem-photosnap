@@ -1,0 +1,24 @@
+/* lets switch this to grid */
+
+.textBesidesImageWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.textBesidesImageWrap.dark {
+  background-color: black;
+  color: white;
+}
+
+.textWrap {
+  padding: 6rem;
+  flex-basis: 40%;
+}
+
+.imageLeft {
+  flex-direction: row-reverse;
+}

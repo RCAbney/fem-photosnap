@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  gap: 2.25rem;
+}
+
+.navigation a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .75rem;
+  line-height: 1rem;
+  letter-spacing: .125rem;
+}
